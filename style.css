@@ -1,0 +1,55 @@
+ header {
+      text-align: center;
+      color: pink ;
+    }
+    h1.israt {
+      color: #590209;
+    }
+    
+    body.index {
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrNCjKqY4LRXWEc5n-53RLMjaLQ0VcmQJG7JApo0ph-Knn_Ya9");
+      background-size: 100% 120%;
+      border:7px outset pink;
+      }
+    body.about {
+      background: url("https://img0.etsystatic.com/027/1/5313274/il_fullxfull.629573364_dfe0.jpg");
+      background-size: 100% 120%;
+    }
+    body.contact {
+      background: url("http://pre09.deviantart.net/c9be/th/pre/i/2013/273/c/c/luminescent_dream_by_antoshines-d6on8nm.jpg");
+      background-size: 100% 120%;
+   }
+    .nav {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    div{
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
